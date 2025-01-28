@@ -1,6 +1,6 @@
 # Introduction to Linux
 
-## This page is a brief introduction to Linux with some examples and explanations to get you started.
+ This page is a brief introduction to Linux with some examples and explanations to get you started.
 ---
 # What is Linux?
 
