@@ -12,7 +12,7 @@ I have gained tramendous interest in DevOpsas it's become an increasingly import
 This repo documents my journey into the world of DevOps, as I work through various tasks, challenges, and tools. My goal is to learn and share my understanding of the core principles, practices, and technologies in DevOps.  
 
 ### **Technologies and Topics Covered**  
-Here are the main topics I’m focusing on, with the tools and technologies I’ll explore:  
+Here are the main topics I’m focusing on:  
 
 - 🐧 **Linux**: The foundation of most DevOps tools and workflows.  
 - 💻 **Bash Scripting**: Automating tasks with shell scripts.  
