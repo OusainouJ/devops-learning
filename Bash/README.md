@@ -14,7 +14,7 @@ Here are some examples of what you’ll find in this repository:
 - Creation a directory named Arena and then inside it, create three files: `warrior.txt`, `mage.txt`, and `archer.txt`. List the contents of the Arena directory. 
 - Creation of a script that outputs the numbers 1 to 10, one number per line.
 - A script that checks if a file named hero.txt exists in the Arena directory. If it does, print `Hero found!`; otherwise, print `Hero missing!`.
-- Creattion of a script that copies all `.txt` files from the `Arena` directory to a new directory called `Backup`.
+- Creation of a script that copies all `.txt` files from the `Arena` directory to a new directory called `Backup`.
 - Write a script that:
   1. Creates a directory names `Battlefield
   2. Inside Battlefield, create files named `knight.txt`, `sorcerer.txt`, and `rogue.txt`.
