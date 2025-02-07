@@ -4,7 +4,7 @@
 ---
 
 ## **What This Repository Covers**  
-This repo documents my journey into the world of Bash scripting, I'll be workking through various tasks and challenges to learn and share my understanding of Bash scripting 
+This repo documents my journey into the world of Bash scripting, I'll be working through various tasks and challenges to learn and share my understanding of Bash scripting 
 
 ---
 
