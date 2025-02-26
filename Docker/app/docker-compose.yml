@@ -1,17 +1,31 @@
 services:
   frontend:
-    build: .  
+    build: .
     ports:
       - "5000:5000"
     depends_on:
       - backend
+    networks:
+      - app-network  # Add this line to assign to the same network
 
   backend:
-    image: redis:6.2  # Using the redis image for the backend
+    image: redis:6.2
     ports:
       - "6379:6379"
-  volumes: 
-    - redis-data:/data
+    networks:
+      - app-network  # Add this line to assign to the same network
 
-volumes:
-  - redis-data
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - frontend
+    networks:
+      - app-network  # Add this line to assign to the same network
+
+networks:
+  app-network:  # Define the network
+    driver: bridge
