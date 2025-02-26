@@ -6,14 +6,14 @@ services:
     depends_on:
       - backend
     networks:
-      - app-network  # Add this line to assign to the same network
+      - app-network  
 
   backend:
     image: redis:6.2
     ports:
       - "6379:6379"
     networks:
-      - app-network  # Add this line to assign to the same network
+      - app-network 
 
   nginx:
     image: nginx:alpine
@@ -24,8 +24,8 @@ services:
     depends_on:
       - frontend
     networks:
-      - app-network  # Add this line to assign to the same network
+      - app-network  
 
 networks:
-  app-network:  # Define the network
+  app-network:  
     driver: bridge
