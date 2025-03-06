@@ -146,5 +146,8 @@ EOF
 ## **Conclusion**
 ✅ You have successfully deployed an **Application Load Balancer (ALB) with EC2 instances**, set up **Auto Scaling**, and configured **HTTPS with SSL certificates**. You should be able to navigate to your domain either via http or https and you should see two instances running at all times with Server A and Server B as per the screenshot.
 
+![Server](https://raw.githubusercontent.com/OusainouJ/DevoPS-Learning/main/AWS/images/Server.png)
+
+
 
 
