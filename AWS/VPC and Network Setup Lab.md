@@ -15,6 +15,8 @@ Create a custom VPC with public and private subnets, configure internet access u
 
 You have now created a VPC with a private and public subnet, along with a NAT Gateway and IGW.
 
+![Server](https://raw.githubusercontent.com/OusainouJ/DevoPS-Learning/main/AWS/images/vpc.png)
+
 ---
 
 ## Step 2: Configure Internet Access
