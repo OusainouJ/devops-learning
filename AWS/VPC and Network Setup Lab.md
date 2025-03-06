@@ -29,6 +29,9 @@ We need to verify and configure the correct routing for the IGW (public internet
 5. Open the route table for the **private subnet**.
 6. Verify that the private subnet's route table is linked to the **NGW**, with a destination of `0.0.0.0/0`. This allows the private subnet to reach the internet while blocking inbound traffic.
 
+![Server](https://raw.githubusercontent.com/OusainouJ/DevoPS-Learning/main/AWS/images/public.png)
+![Server](https://raw.githubusercontent.com/OusainouJ/DevoPS-Learning/main/AWS/images/private.png)
+
 ---
 
 ## Step 3: Deploy EC2 Instances
